@@ -390,6 +390,10 @@ p {
   margin-left: 260px;
 }
 
+.experience-company + .experience-company {
+  margin-top: 40px;
+}
+
 .company-heading {
   display: flex;
   align-items: baseline;
@@ -456,10 +460,6 @@ p {
 .role-detail li::marker,
 .education-item li::marker {
   color: var(--clay);
-}
-
-.role-accent {
-  margin-left: 260px;
 }
 
 .section-projects {
@@ -686,8 +686,7 @@ p {
     gap: 40px;
   }
 
-  .experience-company,
-  .role-accent { margin-left: 185px; }
+  .experience-company { margin-left: 185px; }
 
   .project-item {
     grid-template-columns: 145px minmax(0, 1fr) 24px;
@@ -771,7 +770,7 @@ p {
 
   .about-facts { grid-template-columns: 1fr 1fr; gap: 18px; }
   .about-facts div:last-child { grid-column: 1 / -1; }
-  .experience-company, .role-accent { margin-left: 0; }
+  .experience-company { margin-left: 0; }
   .company-heading { align-items: flex-start; }
 
   .role,
