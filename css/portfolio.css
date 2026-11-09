@@ -247,7 +247,6 @@ p {
   right: -18px;
   width: 100%;
   height: 100%;
-  border: 1px solid var(--green);
   content: "";
 }
 
@@ -305,6 +304,10 @@ p {
   display: grid;
   grid-template-columns: 190px minmax(0, 1fr);
   gap: 70px;
+}
+
+.education-layout {
+  display: block;
 }
 
 .section-label {
